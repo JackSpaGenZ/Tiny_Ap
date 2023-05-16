@@ -1,0 +1,8 @@
+note for node js
+
+
+if u use listen port, some situation u have a error because the port was already run 
+so u can use : 
+                    const port = process.env.PORT || 3000;
+                    require('dotenv').config();
+ to conferm the port
